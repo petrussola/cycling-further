@@ -30,7 +30,7 @@ const StyledHeader = styled.header`
   }
 `;
 
-const StyledIcon = styled.div`
+const StyledIcon = styled.a`
   background: url(${bikeIcon});
   background-size: contain;
   background-repeat: no-repeat;
@@ -105,28 +105,29 @@ const StyledUlule = styled.a`
 `;
 
 const Header = () => {
-  return (
-    <StyledHeader className="content-section">
-      NEW WEBSITE COMING UP SOON
-    </StyledHeader>
-  );
+  return <StyledHeader>NEW WEBSITE COMING UP SOON</StyledHeader>;
 };
 
 const Icon = () => {
-  return <StyledIcon className="content-section" />;
+  return (
+    <StyledIcon
+      href="https://cyclingfurther.com/"
+      target="_blank"
+    />
+  );
 };
 
 const Title = () => {
-  return <StyledTitle className="content-section" />;
+  return <StyledTitle />;
 };
 
 const BookCover = () => {
-  return <StyledBookCover className="content-section" />;
+  return <StyledBookCover />;
 };
 
 const OrderNow = () => {
   return (
-    <StyledOrderNow className="content-section">
+    <StyledOrderNow>
       <div>PRE-ORDER THE BOOK</div>
       <div className="arrow"></div>
     </StyledOrderNow>
@@ -138,7 +139,6 @@ const Ulule = () => {
     <StyledUlule
       href="https://www.ulule.com/cycling-further-the-book-/coming-soon/"
       target="_blank"
-      className="content-section"
     />
   );
 };
