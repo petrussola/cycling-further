@@ -27,8 +27,6 @@ const StyledHeader = styled.header`
   @media (min-width: 1050px) {
     grid-column: 3/7;
     grid-row: 1/2;
-    place-self: end center;
-    text-align: center;
   }
 `;
 
@@ -44,7 +42,6 @@ const StyledIcon = styled.div`
 `;
 
 const StyledTitle = styled.div`
-  background-color: red;
   background: url(${cyclingFurther});
   background-size: 65%;
   background-repeat: no-repeat;
@@ -72,29 +69,31 @@ const StyledOrderNow = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-end;
   font-size: 1.25rem;
   .arrow {
     height: 0;
     width: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid white;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   @media (min-width: 400px) {
     font-size: 1.5rem;
+    .arrow {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
   }
   @media (min-width: 1050px) {
     grid-column: 7/9;
     grid-row: 6/7;
-    place-self: center;
-    text-align: center;
-    height: 100%;
   }
 `;
 
 const StyledUlule = styled.a`
-  background-color: blue;
   background: url(${ulule});
   background-size: contain;
   background-repeat: no-repeat;
