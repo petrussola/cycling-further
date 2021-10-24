@@ -4,6 +4,7 @@ import { GlobalStyle } from "../styles/reset";
 import backgroundBig from "../images/background-big.png";
 import GridWrapper from "../components/grid-wrapper";
 import Content from "../components/content";
+import "@fontsource/archivo";
 
 const StyledWrapper = styled.section`
   width: 100%;
@@ -15,8 +16,6 @@ const StyledContent = styled.div`
   height: 100%;
   background-size: cover;
 `;
-
-
 
 const IndexPage = () => {
   return (

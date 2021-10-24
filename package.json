@@ -14,6 +14,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/archivo": "^4.5.1",
     "babel-plugin-styled-components": "^1.13.3",
     "gatsby": "^3.14.3",
     "gatsby-plugin-image": "^1.14.1",
