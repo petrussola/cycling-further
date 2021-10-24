@@ -13,11 +13,14 @@ export const StyledGrid = styled.div`
     font-size: 1.25rem;
   }
   @media (min-width: 750px) {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   @media (min-width: 1050px) {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
     padding: 0;
+  }
+  @media(min-width: 2000px) {
+    grid-template-rows: 0.4fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 `;
