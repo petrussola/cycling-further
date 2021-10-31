@@ -144,7 +144,7 @@ const Header = () => {
 };
 
 const Icon = () => {
-  return <StyledIcon href="https://cyclingfurther.com/" target="_blank" />;
+  return <StyledIcon href="https://cyclingfurther.wordpress.com/" target="_blank" />;
 };
 
 const Title = () => {
