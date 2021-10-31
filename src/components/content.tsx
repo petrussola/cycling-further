@@ -4,10 +4,16 @@ import bookCover from "../images/book-cover.png";
 import cyclingFurther from "../images/cyclingfurther.png";
 import ulule from "../images/ulule.png";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 
 const Content = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Cycling Further | The Book"</title>
+        <link rel="canonical" href="https://www.cyclingfurther.com/" />
+      </Helmet>
       <Header />
       <Icon />
       <Title />
@@ -144,7 +150,9 @@ const Header = () => {
 };
 
 const Icon = () => {
-  return <StyledIcon href="https://cyclingfurther.wordpress.com/" target="_blank" />;
+  return (
+    <StyledIcon href="https://cyclingfurther.wordpress.com/" target="_blank" />
+  );
 };
 
 const Title = () => {
