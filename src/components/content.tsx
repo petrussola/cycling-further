@@ -167,7 +167,7 @@ const OrderNow = () => {
 const Ulule = () => {
   return (
     <StyledUlule
-      href="https://www.ulule.com/cycling-further-the-book-/coming-soon/"
+      href="https://www.ulule.com/cycling-further/"
       target="_blank"
     />
   );
