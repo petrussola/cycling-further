@@ -12,6 +12,7 @@ const Content = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Cycling Further | The Book"</title>
+        <meta name="description" content="Two belgians cycling from Hungray to the Chinese border across Central Asia. There story now in a book." />
         <link rel="canonical" href="https://www.cyclingfurther.com/" />
       </Helmet>
       <Header />
