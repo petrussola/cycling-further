@@ -152,7 +152,7 @@ const Header = () => {
 
 const Icon = () => {
   return (
-    <StyledIcon href="https://blog.cyclingfurther.com" target="_blank" />
+    <StyledIcon href="https://cyclingfurther.wordpress.com/" target="_blank" />
   );
 };
 
